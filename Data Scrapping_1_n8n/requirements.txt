@@ -1,0 +1,23 @@
+# --- Core Scraping & HTTP ---
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0             # Fast parser recommended for BeautifulSoup/Newspaper3k
+newspaper3k>=0.2.8      # Crucial for the BlogScraper logic
+selenium>=4.15.0        # For JS-heavy fallback
+webdriver-manager>=4.0.1 # Auto-handles ChromeDriver versions
+
+# --- YouTube Specific ---
+yt-dlp>=2023.11.16
+youtube-transcript-api>=0.6.1
+
+# --- PubMed & Science ---
+biopython>=1.81         # Useful if you pivot to official NCBI API (Entrez)
+
+# --- NLP & Intelligence ---
+keybert>=0.8.3
+scikit-learn>=1.3.0     # Dependency for KeyBERT
+langdetect>=1.0.9
+
+# --- Utilities ---
+tqdm>=4.66.0            # Progress bars for your batch loops
+python-dateutil>=2.8.2  # Better date parsing for the Trust Score

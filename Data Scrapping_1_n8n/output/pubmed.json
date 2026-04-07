@@ -1,0 +1,23 @@
+[
+  {
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/38478847/",
+    "source_type": "pubmed",
+    "title": "3D Bioprinted Human Skin Model Recapitulating Native-Like Tissue Maturation and Immunocompetence as an Advanced Platform for Skin Sensitization Assessment",
+    "author": "Bibrita Bhar, Eshani Das, Kodieswaran Manikumar, Biman B Mandal, Bibrita Bhar, Eshani Das, Kodieswaran Manikumar, Biman B Mandal",
+    "published_date": "2024 Jun",
+    "language": "en",
+    "region": "global",
+    "topic_tags": [],
+    "trust_score": 0.54,
+    "content_chunks": [
+      "3D Bioprinted Human Skin Model Recapitulating Native-Like Tissue Maturation and Immunocompetence as an Advanced Platform for Skin Sensitization Assessment Advanced healthcare materials Physiologically-relevant in vitro skin models hold the utmost importance for efficacy assessments of pharmaceutical",
+      " and cosmeceutical formulations, offering valuable alternatives to animal testing. Here, an advanced immunocompetent 3D bioprinted human skin model is presented to assess skin sensitization. Initially, a photopolymerizable bioink is formulated using silk fibroin methacrylate, gelatin methacrylate, a",
+      "nd photoactivated human platelet releasate. The developed bioink shows desirable physicochemical and rheological attributes for microextrusion bioprinting. The tunable physical and mechanical properties of bioink are modulated through variable photocuring time for optimization. Thereafter, the bioin",
+      "k is utilized to 3D bioprint \"sandwich type\" skin construct where an artificial basement membrane supports a biomimetic epidermal layer on one side and a printed pre-vascularized dermal layer on the other side within a transwell system. The printed construct is further cultured in the air-liquid int",
+      "erface for maturation. Immunofluorescence staining demonstrated a differentiated keratinocyte layer and dermal extracellular matrix (ECM)-remodeling by fibroblasts and endothelial cells. The biochemical estimations and gene-expression analysis validate the maturation of the printed model. The incorp",
+      "oration of macrophages further enhances the physiological relevance of the model. This model effectively classifies skin irritative and non-irritative substances, thus establishing itself as a suitable pre-clinical screening platform for sensitization tests. 3D bioprinting; bioinks; in vitro skin mo",
+      "dels; photoactivated platelet releasate; photopolymerization; skin irritation test."
+    ],
+    "is_blocked": false
+  }
+]
