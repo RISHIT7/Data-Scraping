@@ -1,0 +1,25 @@
+# --- Scraping & Browser Automation ---
+requests
+beautifulsoup4
+lxml
+# Newspaper3k is our primary for blog extraction
+newspaper3k
+# Selenium is needed for the sites that use heavy JavaScript
+selenium
+webdriver-manager
+
+# --- Video & Audio Data ---
+yt-dlp
+youtube-transcript-api
+
+# --- NLP & Metadata ---
+# Using KeyBERT for the auto-tagging requirement
+keybert
+scikit-learn
+langdetect
+
+# --- Utilities ---
+tqdm
+python-dateutil
+# biopython included just in case we move to the official NCBI API later
+biopython
