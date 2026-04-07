@@ -153,20 +153,27 @@ pip install -r requirements.txt
 # 2. Run the full pipeline
 python main.py
 
-Input URLs (Blog/YT/PubMed)
-       │
-       ▼
-┌───────────────────────┐
-│   Scraper Factory     │ (Routing & Fallback Logic)
-└──────────┬────────────┘
-           ▼
-┌───────────────────────┐
-│   NLP & Enrichment    │ (KeyBERT, LangDetect, Chunking)
-└──────────┬────────────┘
-           ▼
-┌───────────────────────┐
-│   Trust Scoring Engine│ (Weighted Heuristics & Abuse Guard)
-└──────────┬────────────┘
-           ▼
-     JSON Outputs 
+### 🏗 Pipeline Architecture
+```text 
+       [ Input URLs ]
+    (Blog / YT / PubMed)
+             │
+             ▼
+┌───────────────────────────┐
+│      Scraper Factory      │ (Routing & Fallback Logic)
+└─────────────┬─────────────┘
+              │
+              ▼
+┌───────────────────────────┐
+│     NLP & Enrichment      │ (KeyBERT, LangDetect, Chunking)
+└─────────────┬─────────────┘
+              │
+              ▼
+┌───────────────────────────┐
+│   Trust Scoring Engine    │ (Weighted Heuristics & Abuse Guard)
+└─────────────┬─────────────┘
+              │
+              ▼
+      [ JSON Outputs ]
  (blogs.json, youtube.json...)
+ 
